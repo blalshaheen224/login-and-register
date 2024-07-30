@@ -1,0 +1,131 @@
+body
+{
+    font-family: "Roboto Mono", monospace;
+}
+.title h1
+{
+    color: green;
+}
+.title p
+{
+    position: relative;
+    top: -18px;
+    font-size: 22px;
+}
+
+.box
+{
+    width: 250px;
+
+}
+
+.box input[type = "text"] , .box input[type = "password"] , .box input[type = "mobile number or email"]
+{
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    background-color:rgb(205, 215, 223);
+    border: 0;
+    border-radius: 15px;
+    margin:6px;
+    outline: none;
+}
+
+.gender
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left:  37px ;
+    margin-top: 4px;
+}
+
+.gender h3
+{
+    position: relative;
+   margin-right: 9px;
+   font-size: 20px;
+}
+
+.gender select
+{
+    border: 0;
+    font-size: 16px;
+    width: auto;
+    padding: 10px;
+    background-color:rgb(205, 215, 223);
+    border-radius: 10px;
+}
+
+.birthday
+{
+    margin-top: 2px;
+    position: relative;
+    right: 51px;
+    display: flex;
+    align-items:center ;
+
+}
+.birthday p
+{
+    position: relative;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.birthday select
+{
+    position: relative;
+    border: 0;
+    font-size: 16px;
+    width: auto;
+    padding: 10px;
+    background-color:rgb(205, 215, 223);
+    border-radius: 10px;
+    margin-right: 8PX;
+    right: 5px;
+}
+
+.box input[type = "submit"]
+{
+    border: 0;
+    padding: 10px;
+    width: 220px;
+    background-color: green;
+    color: white;
+    font-size: 19px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: 0,25s;
+    
+}
+
+.box input[type = "submit"]:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.login
+{
+    text-decoration: none;
+    border: 0;
+    padding: 10px;
+    width: 220px;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    font-size: 19px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: 0,25s;
+    position: relative;
+    bottom: -40px;
+}
+
+#error
+{
+    color: red;
+    
+}

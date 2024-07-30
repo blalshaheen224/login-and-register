@@ -1,0 +1,79 @@
+body
+{
+    padding-top: 2px;
+    font-family: "Roboto Mono", monospace;
+}
+.title h1
+{
+    color: green;
+}
+.title p
+{
+    position: relative;
+    top: -18px;
+    font-size: 22px;
+}
+.box
+{
+    width: 250px;
+
+}
+
+.box input[type = "text"] , .box input[type = "password"]
+{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    background-color:rgb(205, 215, 223);
+    border: 0;
+    border-radius: 15px;
+    margin:6px;
+    outline: none;
+}
+ 
+.box input[type = "submit"]
+{
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 19px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: 0,25s;
+    
+}
+
+.box input[type = "submit"]:hover
+{
+    background-color: black;
+    color: white;
+}
+.Register
+{
+  margin-top: -16px;
+}
+.Register a
+{
+    text-decoration: none;
+    border: 0;
+    position: relative;
+    top: -0px;
+    padding: 13px;
+   width: 160px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: 0,25s;
+}
+
+.Register a:hover
+{
+    background-color: black;
+    color: white;
+}
